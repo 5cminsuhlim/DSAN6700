@@ -82,7 +82,27 @@ This section is graded based on the Github submission. Each person needs to have
 ```{python}
 # Add data preparation code here
 
-
+#Importing all relevant libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import plotly.express as px
+from sklearn.model_selection import train_test_split
+from matplotlib import rcParams
+from sklearn.model_selection import cross_val_score, RepeatedKFold
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, GradientBoostingClassifier, StackingClassifier
+from xgboost import XGBClassifier
+from sklearn.metrics import confusion_matrix
+import pickle
+from plotly.subplots import make_subplots
+import plotly.graph_objs as go
 
 ```
 
